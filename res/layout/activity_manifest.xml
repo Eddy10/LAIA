@@ -31,7 +31,7 @@
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="20dp"
-                android:text="Introduction"
+                android:text="@string/a_manifest"
                 android:textAppearance="?android:attr/textAppearanceMedium" />
 
             <TextView
@@ -40,7 +40,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="20dp"
                 android:gravity="center"
-                android:text="Subtitle"
+                android:text="@string/b_manifest"
                 android:textAppearance="?android:attr/textAppearanceMedium" />
 
             <TextView
@@ -48,17 +48,106 @@
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="20dp"
-                android:text="Medium Text"
+                android:text="@string/c_manifest"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android:id="@+id/TextView01"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:gravity="center"
+                android:text="@string/d_manifest"
                 android:textAppearance="?android:attr/textAppearanceMedium" />
 
             <TextView
                 android:id="@+id/textView5"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:text="Medium Text"
+                android:layout_marginBottom="20dp"
+                android:text="@string/e_manifest"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <WebView
+                android:id="@+id/manifest1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="20dp" />
+
+            <TextView
+                android:id="@+id/TextView04"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:text="@string/f_manifest"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <WebView
+                android:id="@+id/manifest2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="20dp" />
+
+            <TextView
+                android:id="@+id/TextView03"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:text="@string/g_manifest"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <WebView
+                android:id="@+id/manifest3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="20dp" />
+
+            <TextView
+                android:id="@+id/TextView02"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:text="@string/h_manifest"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <WebView
+                android:id="@+id/manifest4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="20dp" />
+
+            <TextView
+                android:id="@+id/TextView05"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:text="@string/i_manifest"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <WebView
+                android:id="@+id/manifest5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="20dp" />
+
+            <TextView
+                android:id="@+id/TextView07"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:text="@string/j_manifest"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android:id="@+id/TextView06"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:text="@string/k_manifest"
                 android:textAppearance="?android:attr/textAppearanceMedium" />
 
         </LinearLayout>
+
     </ScrollView>
 
 </RelativeLayout>

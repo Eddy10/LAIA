@@ -36,7 +36,7 @@ public class LaiaActivity extends Activity {
     
     public void click_manifest(View v) {
     	Intent intent = new Intent(this, ManifestActivity.class);
-	        //this.startActivity(intent);
+	        this.startActivity(intent);
 	}
     
     public void click_layouts(View v) {

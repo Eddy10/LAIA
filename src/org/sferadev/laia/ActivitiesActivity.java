@@ -20,19 +20,15 @@ public class ActivitiesActivity extends Activity {
 	
 
 	WebView wv1 = (WebView) findViewById(R.id.activities1);
-	wv1.getSettings().setBuiltInZoomControls(true);
 	wv1.loadUrl(Url1);
 	
 	WebView wv3 = (WebView) findViewById(R.id.activities3);
-	wv3.getSettings().setBuiltInZoomControls(true);
 	wv3.loadUrl(Url3);
 	
 	WebView wv4 = (WebView) findViewById(R.id.activities4);
-	wv4.getSettings().setBuiltInZoomControls(true);
 	wv4.loadUrl(Url4);
 	
 	WebView wv5 = (WebView) findViewById(R.id.activities5);
-	wv5.getSettings().setBuiltInZoomControls(true);
 	wv5.loadUrl(Url5);
 	
 	
